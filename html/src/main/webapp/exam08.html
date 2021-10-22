@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+   <form method="get" action="result.html"> <!-- method="get"은 디폴트 안써도 됨 -->
+   		<fieldset>
+   			<legend>
+   				이름입력하기
+   			</legend>
+   			<div>
+   				<label for ="user_name">이름: </label>
+   				<input type="text" name="user_name" id="user_name" />
+   			</div>
+   			<div>
+   				<input type="submit" value="입력완료" />
+   				<input type="reset" value="다시작성" />
+   				<input type="button" value="일반버튼" onclick="location.href='result.html'" />
+   				<!-- onclick은 자바스크립트 -->
+   				<input type="image" src="img/ok.png" alt="입력완료" />
+   			</div>
+   		</fieldset>
+   </form>
+</body>
+</html>
